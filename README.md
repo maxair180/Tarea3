@@ -10,15 +10,15 @@ Entrada del Grado: Solicita al usuario el grado del arbol B (minimo 2) mediante 
 
 Creacion de Ventana: Crea una ventana JFrame que contiene un panel de tipo ArbolB
 
-Menu de Operaciones: Presenta un menu con 4 opciones:
+### Menu de Operaciones: Presenta un menu con 4 opciones:
 
-Insertar clave
+- Insertar clave
 
-Eliminar clave
+- Eliminar clave
 
-Buscar clave
+- Buscar clave
 
-Salir del programa
+- Salir del programa
 
 Para cada operacion, muestra cajas de texto para ingresar los valores necesarios y llama a los metodos correspondientes de la clase ArbolB
 
@@ -30,26 +30,26 @@ Esta clase extiende JPanel y contiene toda la logica del arbol B y su representa
 
 ### Operaciones Basicas:
 
-insertar(clave): agrega una nueva clave al arbol, dividiendo nodos cuando es necesario
+- insertar(clave): agrega una nueva clave al arbol, dividiendo nodos cuando es necesario
 
-eliminar(clave): elimina una clave del arbol, fusionando nodos cuando es necesario
+- eliminar(clave): elimina una clave del arbol, fusionando nodos cuando es necesario
 
-buscar(clave): verifica si una clave existe en el arbol
+- buscar(clave): verifica si una clave existe en el arbol
 
 ### Metodos Auxiliares:
 
-dividirHijo(): divide un nodo lleno cuando se inserta una nueva clave
+- dividirHijo(): divide un nodo lleno cuando se inserta una nueva clave
 
-fusionarHijo(): combina nodos cuando quedan con menos claves de las necesarias
+- fusionarHijo(): combina nodos cuando quedan con menos claves de las necesarias
 
-llenarHijo(): balancea el arbol distribuyendo claves entre nodos hermanos
+- llenarHijo(): balancea el arbol distribuyendo claves entre nodos hermanos
 
 ### Representacion Grafica:
 
-recalcularPosiciones(): calcula las coordenadas de cada nodo para el dibujo
+- recalcularPosiciones(): calcula las coordenadas de cada nodo para el dibujo
 
-paintComponent(): dibuja el arbol completo con nodos y conexiones
+- paintComponent(): dibuja el arbol completo con nodos y conexiones
 
-dibujarArbol(): renderiza cada nodo con sus claves y las lineas a sus hijos
+- dibujarArbol(): renderiza cada nodo con sus claves y las lineas a sus hijos
 
 La visualizacion se actualiza automaticamente despues de cada operacion
